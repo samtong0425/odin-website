@@ -62,13 +62,20 @@ a {
     font-weight:bolder;
 }
 
-.container-three {
-    background-color: #e5e7eb;
-}
-
 .container-one {
     display: flex;
     flex: 1;
     border: white;
 }
+
+.container-three {
+    background-color: #e5e7eb;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
