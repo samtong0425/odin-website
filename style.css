@@ -167,19 +167,27 @@ a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    border-radius: 20px;
 }
 
 .three-heading {
-    height: fit-content;
+    height: 75px;
     align-self: flex-start;
     width: 500px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .three-text {
-    height: fit-content;
+    height: 75px;
     align-self: flex-start;
     width: 500px;
+    color: #e5e7eb;
+    font-weight: 100;
+    font-size: 15px;
 }
 
 #three-button {
