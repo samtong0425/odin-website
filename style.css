@@ -72,12 +72,20 @@ a {
 .left {
     display: flex;
     flex-direction: column;
-    flex:1;
-    gap: 20px;
+    flex:1 1 50%;
+    height: 50%;
 }
 
 .right {
-    flex:1;
+    flex:1 1 50%;
+    background-color: gray;
+    height: 50%;
+    display:flex;
+}
+
+img{
+    justify-content: center;
+
 }
 
 .one-heading {
